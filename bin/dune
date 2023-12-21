@@ -1,0 +1,35 @@
+(executables
+ (public_names day1)
+ (modules day1)
+ (names day1)
+ (libraries base stdio))
+
+(executables
+ (public_names day2)
+ (modules day2)
+ (names day2)
+ (libraries base stdio))
+
+(executables
+ (public_names day3)
+ (modules day3)
+ (names day3)
+ (libraries base stdio))
+
+(executables
+ (public_names day4)
+ (modules day4)
+ (names day4)
+ (libraries base stdio))
+
+(executables
+ (public_names day5)
+ (modules day5)
+ (names day5)
+ (libraries base stdio))
+
+(executables
+ (public_names day6)
+ (modules day6)
+ (names day6)
+ (libraries base angstrom stdio))
