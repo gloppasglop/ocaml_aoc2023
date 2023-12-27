@@ -33,3 +33,11 @@
  (modules day6)
  (names day6)
  (libraries base angstrom stdio))
+
+(executables
+ (public_names day7)
+ (modules day7)
+ (names day7)
+ (preprocess
+  (pps ppx_jane))
+ (libraries base angstrom stdio))
