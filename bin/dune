@@ -57,3 +57,11 @@
  (preprocess
   (pps ppx_jane))
  (libraries base angstrom stdio))
+
+(executables
+ (public_names day10)
+ (modules day10)
+ (names day10)
+ (preprocess
+  (pps ppx_jane))
+ (libraries base angstrom stdio))
